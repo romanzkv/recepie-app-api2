@@ -9,6 +9,6 @@ RUN mkdir /app
 WORKDIR /app
 COPY ./app /app
 
-RUN useradd -D user
-USER user
+#RUN useradd -D user
+#USER user
 
